@@ -14,6 +14,8 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            HorseViewRepresentable()
+                .frame(minHeight: 100, maxHeight: 200)
         }
         .padding()
     }

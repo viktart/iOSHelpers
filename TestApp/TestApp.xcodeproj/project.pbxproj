@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		596E26712CB7F29200DCF003 /* iOSHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596E26702CB7F29200DCF003 /* iOSHelpers.framework */; };
 		596E26722CB7F29200DCF003 /* iOSHelpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 596E26702CB7F29200DCF003 /* iOSHelpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		59CD904D2CB820AF008874F3 /* SeparateTestBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CD904C2CB820AF008874F3 /* SeparateTestBundle.framework */; };
+		59CD904E2CB820AF008874F3 /* SeparateTestBundle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 59CD904C2CB820AF008874F3 /* SeparateTestBundle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				596E26722CB7F29200DCF003 /* iOSHelpers.framework in Embed Frameworks */,
+				59CD904E2CB820AF008874F3 /* SeparateTestBundle.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +50,7 @@
 		59A30D842CB7EFD8007F1392 /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A30D942CB7EFDA007F1392 /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59A30D9E2CB7EFDA007F1392 /* TestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CD904C2CB820AF008874F3 /* SeparateTestBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SeparateTestBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -73,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				596E26712CB7F29200DCF003 /* iOSHelpers.framework in Frameworks */,
+				59CD904D2CB820AF008874F3 /* SeparateTestBundle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +101,7 @@
 		596E266F2CB7F29200DCF003 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59CD904C2CB820AF008874F3 /* SeparateTestBundle.framework */,
 				596E26702CB7F29200DCF003 /* iOSHelpers.framework */,
 			);
 			name = Frameworks;
